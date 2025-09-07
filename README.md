@@ -26,6 +26,13 @@
   sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/test/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
 
   ```
+  
+## ♦️INSTALLATION SCRIPT ( SSH 80 )♦️
+
+  ```html
+  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/test/main/setup1sh && chmod +x setup1sh && sed -i -e 's/\r$//' setup1sh && screen -S setup ./setup1sh
+
+  ```  
  
 ## Description :
 
