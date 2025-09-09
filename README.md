@@ -23,14 +23,14 @@
 ## ♦️INSTALLATION SCRIPT ( Recommended Debian 10 11 12 )♦️
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/test/main/setup.sh && chmod +x setup.sh && sed -i -e 's/\r$//' setup.sh && screen -S setup ./setup.sh
+  apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/basikal123/test/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh
 
   ```
   
 ## ♦️INSTALLATION SCRIPT ( SSH 80 )♦️
 
   ```html
-  sysctl -w net.ipv6.conf.all.disable_ipv6=1 && sysctl -w net.ipv6.conf.default.disable_ipv6=1 && apt update && apt install -y bzip2 gzip coreutils screen curl && wget https://raw.githubusercontent.com/basikal123/test/main/setup1.sh && chmod +x setup1.sh && sed -i -e 's/\r$//' setup1.sh && screen -S setup ./setup1.sh
+  apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/basikal123/test/main/setup1.sh && chmod +x setup1.sh && screen -S setup1 ./setup1.sh
 
   ```  
  
@@ -71,3 +71,4 @@
   <a><img src="https://img.shields.io/badge/Copyright%20©-MATKILAU%20AutoScriptVPN%202022.%20All%20rights%20reserved...-blueviolet.svg" style="max-width:200%;">
     </p>
    </p>
+   
