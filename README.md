@@ -27,7 +27,7 @@
 
   ```
   
-## ♦️INSTALLATION SCRIPT ( SSH 80 )♦️
+## ♦️INSTALLATION SCRIPT ( SSH 80 VLESS 8080)♦️
 
   ```html
   apt --fix-missing update && apt update && apt upgrade -y && apt install -y bzip2 gzip coreutils screen dpkg wget vim curl nano zip unzip && wget -q https://raw.githubusercontent.com/basikal123/test/main/setup1.sh && chmod +x setup1.sh && screen -S setup1 ./setup1.sh
