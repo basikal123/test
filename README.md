@@ -9,7 +9,7 @@
 ## ♦️UPDATE & UPGRADE VPS♦️
 
   ```html
-  apt-get update && apt-get upgrade -y && update-grub && sleep 2 && apt install sudo wget curl nano
+  apt-get update && apt-get upgrade -y && update-grub && sleep 2 && reboot
 
   ```
 
